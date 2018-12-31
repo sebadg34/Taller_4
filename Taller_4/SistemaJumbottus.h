@@ -14,7 +14,9 @@ using namespace std;
 class SistemaJumbottus
 {
 public:
+	double tiempo_secuencial;
 	int bono;//variable para almacenar el bono
+	int perdida_total;
 	SistemaJumbottus();
 	~SistemaJumbottus();
 	void Menu();//menu del sistema

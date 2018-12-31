@@ -3,9 +3,11 @@
 
 #include "pch.h"
 #include <iostream>
+#include "SistemaJumbottus.h"
 
 int main()
 {
+	SistemaJumbottus sistema;
     std::cout << "Hello World!\n"; 
 }
 
